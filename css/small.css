@@ -1,0 +1,85 @@
+@media (max-width: 480px) {
+  :root {
+    --fs-h1: 18px;
+    --fs-logo: 16px;
+    --space-section: 40px;
+    --space-side-lg: 16px;
+    --space-side-md: 10px;
+    --space-side-header: 16px;
+  }
+
+  h2 {
+    letter-spacing: 2px;
+  }
+
+  .sub {
+    max-width: 240px;
+  }
+
+  .sec1 {
+    min-height: 400px;
+    padding: 140px 16px 80px;
+  }
+
+  .sec1 h1 {
+    letter-spacing: 3px;
+  }
+
+  .tile {
+    min-height: 120px;
+  }
+
+  .banner,
+  .banner2 {
+    text-align: center;
+    font-size: var(--fs-base);
+  }
+
+  .services {
+    padding-bottom: 50px;
+  }
+
+  .services-box {
+    gap: 30px;
+    margin-top: 35px;
+  }
+
+  .left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .icons {
+    flex-direction: row;
+    margin: 0 0 20px;
+  }
+
+  .service-text {
+    max-width: none;
+  }
+
+  .circles {
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .circle b {
+    width: 60px;
+    height: 60px;
+    line-height: 56px;
+    font-size: var(--fs-base);
+  }
+
+  .filter {
+    margin: 30px 0 20px;
+  }
+
+  .filter a {
+    margin: 0 8px;
+  }
+
+  .galery {
+    column-count: 1;
+  }
+}

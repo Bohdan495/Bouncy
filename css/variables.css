@@ -1,0 +1,59 @@
+:root {
+  --color-accent: #1fbf9a;
+  --color-white: #fff;
+  --color-text: #777;
+  --color-heading: #555;
+  --color-heading-dark: #444;
+  --color-bar-bg: #ddd;
+  --color-icon-bg: #777;
+  --color-icon-bg-dark: #444;
+
+  --overlay-tile: rgba(20, 20, 20, .85);
+  --overlay-item: rgba(25, 25, 25, .9);
+  --overlay-footer: rgba(25, 25, 25, .93);
+  --overlay-hero-top: rgba(0, 0, 0, .45);
+  --overlay-hero-bottom: rgba(10, 20, 40, .7);
+
+  --font-main: Arial, Helvetica, sans-serif;
+  --fs-xxs: 9px;
+  --fs-xs: 10px;
+  --fs-sm: 11px;
+  --fs-md: 12px;
+  --fs-base: 13px;
+  --fs-lg: 14px;
+  --fs-xl: 15px;
+  --fs-h2: 16px;
+  --fs-logo: 18px;
+  --fs-h1: 24px;
+
+  --space-section: 70px;
+  --space-side-lg: 120px;
+  --space-side-md: 94px;
+  --space-side-header: 70px;
+
+  --radius-pill: 20px;
+  --radius-circle: 50%;
+
+  --transition-fast: 0.3s;
+  --transition-slow: 0.4s;
+}
+
+@media (min-width: 600px) {
+  :root {
+    --fs-h1: 22px;
+    --space-section: 60px;
+    --space-side-lg: 50px;
+    --space-side-md: 40px;
+    --space-side-header: 40px;
+  }
+}
+
+@media (min-width: 900px) {
+  :root {
+    --fs-h1: 24px;
+    --space-section: 70px;
+    --space-side-lg: 120px;
+    --space-side-md: 94px;
+    --space-side-header: 70px;
+  }
+}
