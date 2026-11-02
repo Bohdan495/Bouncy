@@ -13,7 +13,7 @@ html {
   line-height: 1.7;
   overflow-x: hidden;
   max-width: 100%;
-  cursor: url(./imgs/cursor-1fbf9a.svg) 16 16, auto;
+  cursor: url(../imgs/cursor-1fbf9a.svg) 16 16, auto;
    scroll-behavior: smooth;
 }
 ::selection {
@@ -31,7 +31,7 @@ a {
 a {
   color: inherit;
   text-decoration: none;
-  cursor:url(./imgs/pointer-1fbf9a.svg), pointer;
+  cursor:url(../imgs/pointer-1fbf9a.svg), pointer;
 }
 
 img {
